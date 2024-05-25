@@ -5,11 +5,17 @@ Randomly get a Chagee order number. It will automatically add a random number be
 ## Usage
 
 ### Surge
+
+Copy the following link, select `Install New Module...` to complete the addition.
+
 ```
 https://raw.githubusercontent.com/missuo/chagee/main/chagee.sgmodule
 ```
 
 ### Quantumult X
+
+Copy the following content and complete the addition in the `[rewrite_remote]` section of the configuration file.
+
 ```
 https://raw.githubusercontent.com/missuo/chagee/main/chagee.js, tag=Chagee Random Order No, update-interval=172800, opt-parser=true, enabled=true
 ```

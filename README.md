@@ -1,6 +1,6 @@
 # CHAGEE
 
-Randomly get a Chagee order number.
+Randomly get a Chagee order number. It will automatically add a random number between 1 and 20 to the number of your latest order, and each request will result in a different outcome.
 
 ## Usage
 

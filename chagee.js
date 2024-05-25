@@ -2,7 +2,7 @@
  * @Author: Vincent Yang
  * @Date: 2024-05-25 19:00:59
  * @LastEditors: Vincent Yang
- * @LastEditTime: 2024-05-25 19:18:37
+ * @LastEditTime: 2024-05-25 19:28:08
  * @FilePath: /chagee/chagee.js
  * @Telegram: https://t.me/missuo
  * @GitHub: https://github.com/missuo
@@ -36,6 +36,5 @@ let newOrderNo = prefix + newThreeDigits;
 
 objc.data.data[0].orderBaseInfo.storeOrderNo = newOrderNo;
 
-$done({
-    body: JSON.stringify(objc)
-});
+let body = JSON.stringify(objc)
+$done({body});

@@ -1,0 +1,8 @@
+#!name=Chagee Random Order No
+#!desc=Randomly get a Chagee order number. 
+
+[Script]
+Chagee.js = requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/missuo/chagee/main/chagee.js,type=http-response,pattern=^https?:\/\/webapi2\.qmai\.cn\/web\/catering2\-apiserver\/v3\/order\/list\/ignore\-count,script-update-interval=0
+
+[MITM]
+hostname = webapi2.qmai.cn:0
